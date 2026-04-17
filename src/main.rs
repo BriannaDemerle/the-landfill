@@ -1,6 +1,9 @@
 #![allow(dead_code)]
+#![feature(iter_array_chunks)]
+
 
 mod benfords_law;
+mod brainfuck_everything;
 
 fn main() {
     println!(
