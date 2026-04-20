@@ -6,4 +6,5 @@ This is a place where I put a bunch of random rust code I use to test random stu
 Special thanks to my girlfriend who got "mad" at me after I told her that I delete my scratch-space code whenever I want to code a new silly little idea.
 
 ## Doohickeys
-- [Benfords Law](src/benfords_law.rs)
+- [Benfords Law](src/benfords_law.rs) (4/14/26)
+- [Brainf*** Everything](src/brainfuck_everything.rs) (4/17/26)
