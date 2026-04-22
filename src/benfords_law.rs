@@ -1,3 +1,7 @@
+//! Simulates [benford's law][https://en.wikipedia.org/wiki/Benford%27s_law]
+//! 
+//! `Coded on 4/14/26`
+
 use rand::{RngExt, rngs::ThreadRng};
 
 /// Generates a random number between 2 random magnitudes
@@ -26,8 +30,6 @@ fn generate_leading_digit(rng: &mut ThreadRng) -> usize {
 /// by generating a bunch of random numbers over a number of magnitudes,
 /// keeping track of the frequency of the first digit, and printing out the
 /// statistics.
-/// 
-/// `Coded on 4/14/26`
 pub fn benfords_law(trials: u32) {
     let mut rng = rand::rng();
 

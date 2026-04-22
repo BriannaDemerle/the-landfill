@@ -1,3 +1,7 @@
+//! A program that reads any file as a brainfuck program by interpreting every
+//! three bits as an instruction.
+//! 
+//! `Coded on 4/17/26`
 use std::io::{self, Read};
 use std::path::Path;
 
@@ -103,8 +107,6 @@ impl BFInstruction {
 
 /// A brainfuck program with `N` cells on the tape.
 /// The read-write head does not loop around the edges.
-/// 
-/// `Coded on 4/17/26`
 pub struct BFProgram<const N: usize> {
     values: [u8; N],
     head: usize,

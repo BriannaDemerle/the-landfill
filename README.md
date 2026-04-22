@@ -8,3 +8,4 @@ Special thanks to my girlfriend who got "mad" at me after I told her that I dele
 ## Doohickeys
 - [Benfords Law](src/benfords_law.rs) (4/14/26)
 - [Brainf*** Everything](src/brainfuck_everything.rs) (4/17/26)
+- [Dijkstra's Algorithm](src/dijkstra_practice.rs) (4/22/26)

@@ -4,6 +4,7 @@
 
 mod benfords_law;
 mod brainfuck_everything;
+mod dijkstra_practice;
 
 fn main() {
     println!(
